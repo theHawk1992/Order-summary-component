@@ -4,33 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Order Summary Component</title>
   </head>
   <body>
     <main>
-      <ul>
+      <ul id="first-container-ul">
         <li>
           <img
             src="images/illustration-hero.svg"
             alt="A girl listening to music"
+            id="girl-picture"
           />
         </li>
         <li>
-          <h1>Order Summary</h1>
+          <h2>Order Summary</h2>
         </li>
         <li>
-          <p>
-            you can now listen to millions of songs,<br />
+          <p class="body-text">
+            You can now listen to millions of songs,<br />
             audiobooks, and podcasts on any device <br />
             anywhere you like!
           </p>
         </li>
         <li>
-          <ul>
-            <li><img src="images/icon-music.svg" alt="" /></li>
-            <li><p>Annual plan</p></li>
-            <li><p>$59.99/year</p></li>
+          <ul id="second-container-ul">
+            <li>
+              <img
+                src="images/icon-music.svg"
+                alt="Music-icon"
+                id="music-icon"
+              />
+            </li>
+            <li>
+              <ul id="third-container-ul">
+                <li><p>Annual plan</p></li>
+                <li><p>$59.99/year</p></li>
+              </ul>
+            </li>
             <li><a href="#">change</a></li>
           </ul>
         </li>

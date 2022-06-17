@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 body {
@@ -9,4 +11,46 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
+
+#first-container-ul {
+    background-color: white; 
+    width: 330px;
+    margin: 5rem auto 5rem auto;
+    border-radius: 15px;
+    overflow: visible;
+}
+
+#girl-picture{
+    width: 330px;
+    padding-bottom: 25px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 15px;
+}
+
+.body-text{
+    font-family: inherit;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+#music-icon{
+    width: 35px;
+    height: 35px;
+}
+
+#second-container-ul{
+    display: flex;
+    
+}
+
